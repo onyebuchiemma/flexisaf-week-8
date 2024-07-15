@@ -1,0 +1,156 @@
+body{
+     background-image: url(img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #cccccc;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.left1, .signup{
+    /* display: inline-block */
+}
+
+.signup, .signin {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: right;
+    margin: 20px auto;
+    justify-items: end;
+    margin-top: 0px;
+}
+
+.left1{
+     text-align: right;
+     margin-right: 20px;
+     margin-top: 20px;
+}
+
+.nav{
+    padding: 10px 20px;
+    background-color: #D9D9D9;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: #57a01e
+}
+
+button:active{
+    background-color: green;
+}
+
+button:focus{
+    background-color: rgb(6, 154, 63);
+}
+
+
+.navall{
+    /* text-align: right;
+    margin-top: 40px; */
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+input{
+    width: 60%;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #D9D9D9;
+}
+
+.sss{
+    width: 100px;
+    height: 50px;
+    background-color: #4CAF50;
+    margin-top: 0px;
+}
+
+input[type="search"] {
+    padding: 10px;
+    padding-left: 40px;
+    /* background: url() no-repeat; */
+    background-position: 10px center;
+    background-size: 20px 20px;
+}
+
+i h1{
+    margin-left: 10px;
+}
+
+.pfirst{
+    width: 70%;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.last{
+    padding: 10px 100px;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    text-align: right;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
