@@ -35,7 +35,7 @@ label{
     font-size: 16px;
     cursor: pointer;
     text-align: right;
-    margin: 20px auto;
+    margin: 10px auto;
     justify-items: end;
     margin-top: 0px;
 }
@@ -74,13 +74,17 @@ button:focus{
 
 
 .navall{
+    display: flex;
+    display: inline;
     /* text-align: right;
     margin-top: 40px; */
 }
 
 h1{
-    font-size: 40px;
+    font-size: 20px;
     margin-left: 20px;
+    margin-top: 50px; 
+    width: 100%;
 }
 
 input{
@@ -88,6 +92,7 @@ input{
     height: 50px;
     margin-left: 20px;
     background-color: #D9D9D9;
+    border-radius: 5px;
 }
 
 .sss{
@@ -95,6 +100,7 @@ input{
     height: 50px;
     background-color: #4CAF50;
     margin-top: 0px;
+    border-radius: 5px;
 }
 
 input[type="search"] {
@@ -110,10 +116,10 @@ i h1{
 }
 
 .pfirst{
-    width: 70%;
+    width: 100%;
     background-color: white;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 30px;
     padding: 5px;
     border-radius: 10px;
